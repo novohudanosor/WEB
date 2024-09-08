@@ -182,11 +182,11 @@ docker-compose up -d
 ...
 docker ps
  CONTAINER ID   IMAGE                               COMMAND                  CREATED       STATUS                          PORTS                                                                   NAMES
-8d555c5152be   project_app                         "gunicorn --workers=…"   4 hours ago   Up 3 hours                                                                                              app
+8d555c5152be   project_app                         "gunicorn --workers=…"   4 hours ago   Up 4 hours                                                                                              app
 62ce3d8c2fa6   mysql:8.0                           "docker-entrypoint.s…"   4 hours ago   Restarting (1) 54 seconds ago                                                                           database
-860032539f1e   nginx:1.22.0-alpine                 "/docker-entrypoint.…"   4 hours ago   Up 3 hours                      80/tcp, 0.0.0.0:8081-8083->8081-8083/tcp, :::8081-8083->8081-8083/tcp   nginx
-f0a811abf220   wordpress:6.0.1-php8.0-fpm-alpine   "docker-entrypoint.s…"   4 hours ago   Up 3 hours                      9000/tcp                                                                wordpress
-26544677b744   node:16.13.2-alpine3.15             "docker-entrypoint.s…"   4 hours ago   Up 3 hours                                                                                              node  
+860032539f1e   nginx:1.22.0-alpine                 "/docker-entrypoint.…"   4 hours ago   Up 4 hours                      80/tcp, 0.0.0.0:8081-8083->8081-8083/tcp, :::8081-8083->8081-8083/tcp   nginx
+f0a811abf220   wordpress:6.0.1-php8.0-fpm-alpine   "docker-entrypoint.s…"   4 hours ago   Up 4 hours                      9000/tcp                                                                wordpress
+26544677b744   node:16.13.2-alpine3.15             "docker-entrypoint.s…"   4 hours ago   Up 4 hours                                                                                              node  
 ```
 5. Проверяем работоспособность.
 ![alt text](./Pictures/1.png)
